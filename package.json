@@ -1,0 +1,76 @@
+{
+
+  
+
+  "dependencies": {
+
+  
+
+    
+
+  "cypress": "^13.11.0"
+
+  
+
+  },
+
+  
+
+  "devDependencies": {
+
+  
+
+    
+
+  "cross-env": "^7.0.3",
+
+  
+
+    
+
+  "mochawesome": "^7.1.3",
+
+  
+
+    
+
+  "mochawesome-merge": "^4.3.0",
+
+  
+
+    
+
+  "mochawesome-report-generator": "^6.2.0"
+
+  
+
+  },
+
+  
+
+  "scripts": {
+
+  
+
+    
+
+  "open:dev-30": "cross-env CYPRESS_environment=dev-30 npx cypress open",
+
+  
+
+    
+
+  "open:dev-21": "cross-env CYPRESS_environment=dev-21 npx cypress open",
+
+  
+
+    
+
+  "open:qa-21": "cross-env CYPRESS_environment=qa-21 npx cypress open"
+
+  
+
+  }
+
+}
+
